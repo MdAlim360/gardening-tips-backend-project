@@ -6,7 +6,7 @@ export const initialPayment = async (paymentData: any) => {
         const response = await axios.post(config.payment_url!, {
             store_id: config.store_id,
             tran_id: paymentData.transactionId,
-            success_url: `http://localhost:5100/api/payment/confirmation?transactionId=${paymentData.transactionId}&status=success&id=${paymentData.user}`,
+            success_url: `https://gardening-project-backend.vercel.app/api/payment/confirmation?transactionId=${paymentData.transactionId}&status=success&id=${paymentData.user}`,
             fail_url: `http://localhost:5100/api/payment/confirmation?status=failed`,
             cancel_url: "http://localhost:3000/",
             amount: paymentData.totalAmount,
