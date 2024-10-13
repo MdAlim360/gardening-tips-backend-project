@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin: ['http://localhost:3000', 'http://localhost:5175', 'https://meeting-room-booking-system-three.vercel.app'], // Allow both origins
+    origin: ['http://localhost:3000', 'http://localhost:5175', 'https://meeting-room-booking-system-three.vercel.app,https://soft-gingersnap-900ff5.netlify.app'], // Allow both origins
     credentials: true,
     methods: ['GET', 'POST', 'PATCH', 'DELETE', 'PUT'],
     allowedHeaders: ['Content-Type', 'Authorization'],
