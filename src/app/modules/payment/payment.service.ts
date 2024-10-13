@@ -86,7 +86,7 @@ const confirmationService = async (transactionId: string, status: string, id: st
 
 
         if (!isSuccessful) {
-            const homeLink = '<a href="https://localhost:3000/" style="color: white; background-color: red; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Go to Home</a>';
+            const homeLink = '<a href="https://soft-gingersnap-900ff5.netlify.app/" style="color: white; background-color: red; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Go to Home</a>';
             const errorStyles = `
                 <div style="color: red; font-weight: bold; padding: 20px; background-color: #ffe6e6; border: 2px solid red; margin: 20px 0;">
                     ${message}
