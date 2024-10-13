@@ -110,7 +110,7 @@ const confirmationService = async (transactionId: string, status: string, id: st
                 Payment confirmation failed. Please try again later.
             </div>
             <div style="text-align: center; margin-top: 20px;">
-                <a href="https://localhost:3000/" style="color: white; background-color: red; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Go to Home</a>
+                <a href="https://soft-gingersnap-900ff5.netlify.app/" style="color: white; background-color: red; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Go to Home</a>
             </div>
         `;
     }

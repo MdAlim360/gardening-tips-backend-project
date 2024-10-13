@@ -165,7 +165,7 @@ const forgetPassword = async (email: string) => {
 
         var mailOptions = {
             from: 'md.alim1042@gmail.com',
-            to: 'apshoratasnim956@gmail.com',
+            to: email,
             subject: 'Recovery password',
             text: `${code}`
         };
