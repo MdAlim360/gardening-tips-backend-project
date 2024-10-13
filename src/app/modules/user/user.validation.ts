@@ -1,7 +1,7 @@
 import { z } from 'zod';
 const userValidationSchema = z.object({
     body: z.object({
-        name: z.string().max(20),
+        name: z.string(),
         email: z.string().email(),
         password: z.string().min(6),
         phone: z.string(),
